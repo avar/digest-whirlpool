@@ -1,0 +1,54 @@
+1.0.6    2007 July 07
+         Fixed typo in script/whirlpoolsum POD
+
+         use utf8 for author name in Makefile.PL
+
+         inc/: Upgraded to M::I 0.67
+
+         Fixed release dates in relaese by avar, released in 2007, not 2006
+
+1.0.5    2007 January 30
+         Fixed typo in pod (oops!)
+
+         Changed to a Module::Install-based build system
+
+         Updated README file
+
+         PODed INSTALL
+
+         whirlpoolsum(1) utility
+
+         removed examples/ directory, the Digest docs and t/ should be more than enough
+
+         Updater ppport.h with Devel::PPPort
+
+         Relicensed from GPL => GPL/Artistic, see COPYING for rationale.
+
+1.0.4    2007 January 24
+         - Added a clone() method that clones the state of the current object and
+         - returns the cloned object.
+
+         add and addfile now return current the object so ->add( "foo" )->digest
+         works like it does in other digest modules.
+
+         Added a b64digest method that is an alias for the base64digest method.
+
+         Removed (add addfile reset) from @EXPORT_OK, 
+
+         Updated the LICENSE section to the recommended FSF GPL notice
+
+         b64digest no longer returns a trailing ==
+
+1.0.3    2004 August 18
+         Modified hashsize() to return number of bits, instead of bytes
+         (to become consistent with Digest::SHA of Mark Shelor)
+
+1.0.2    2003 July 29
+         Minor code cleanup
+
+1.0.1    Optimized even more
+         Refined "files.pl" example script by including error-checking
+
+1.0.0    2003 June 07
+         Initial release
+
