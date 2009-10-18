@@ -5,7 +5,7 @@
 
          inc/: Upgraded to M::I 0.67
 
-         Fixed release dates in relaese by avar, released in 2007, not 2006
+         Fixed release dates in release by avar, released in 2007, not 2006
 
 1.0.5    2007 January 30
          Fixed typo in pod (oops!)
