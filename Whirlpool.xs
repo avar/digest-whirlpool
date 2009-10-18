@@ -87,6 +87,7 @@ digest(self)
            its char* part and writes directly to it */
         RETVAL = newSVpvn("", 64);
         NESSIEfinalize(&self->state, SvPVX(RETVAL));
+        NESSIEinit(&self->state);
     }
 
     OUTPUT:

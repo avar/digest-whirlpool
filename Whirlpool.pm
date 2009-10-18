@@ -4,7 +4,7 @@ use base 'Digest::base';
 
 use XSLoader ();
 
-our $VERSION = '1.0.6';
+our $VERSION = '1.0.7';
 
 XSLoader::load __PACKAGE__, $VERSION;
 
@@ -130,7 +130,7 @@ L<http://rt.cpan.org/Public/Bug/Report.html?Queue=Digest-Whirlpool>
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
-Copyright 2003 Julius C. Duque and 2007 E<AElig>var ArnfjE<ouml>rE<eth> Bjarmason.
+Copyright 2003 Julius C. Duque and 2007 and 2009 E<AElig>var ArnfjE<ouml>rE<eth> Bjarmason.
 
 =cut
 

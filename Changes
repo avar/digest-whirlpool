@@ -1,3 +1,9 @@
+1.0.7    2009 October 18
+
+         Fixed RT#50620 reported by KENTNL. The Digest.pm standard
+         says that on ->hexdigest the checksum must be reset. But this
+         module wasn't doing that. Oops!
+
 1.0.6    2007 July 07
          Fixed typo in script/whirlpoolsum POD
 
