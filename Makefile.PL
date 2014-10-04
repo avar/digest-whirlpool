@@ -12,10 +12,11 @@ use inc::Module::Install;
 name 'Digest-Whirlpool';
 
 # Primary maintainer
-{ use utf8; author 'Ævar Arnfjörð Bjarmason <avar@cpan.org>' }
+author 'Ævar Arnfjörð Bjarmason <avar@cpan.org>';
 
 # some parts are under 'perl', see LICENSE
 license_from 'Whirlpool.pm';
+version_from 'Whirlpool.pm';
 
 install_script 'script/whirlpoolsum';
 
