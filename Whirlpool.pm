@@ -1,15 +1,17 @@
 package Digest::Whirlpool;
 use strict;
+use warnings;
 use base 'Digest::base';
 
 use XSLoader ();
+BEGIN {
+    our $VERSION = '1.0.8';
 
-our $VERSION = '1.0.8';
+    XSLoader::load __PACKAGE__, $VERSION;
 
-XSLoader::load __PACKAGE__, $VERSION;
-
-# Pre-1.0.4 used base64digest, maintain API compatibility with it.
-*base64digest = \&Digest::base::b64digest;
+    # Pre-1.0.4 used base64digest, maintain API compatibility with it.
+    *base64digest = \&Digest::base::b64digest;
+}
 
 1;
 
