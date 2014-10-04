@@ -1,3 +1,9 @@
+2.00     2014 October 4
+
+         Apparently I suck at version numbering. 1.0.10 is sorted as
+         less recent than 1.0.9 by PAUSE. Just bumping to 2.00 and
+         using more CPAN-ish versions to fix this. No other changes.
+
 1.0.10   2014 October 4
 
          Fix warnings both in the upstream code and our own code,
