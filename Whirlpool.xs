@@ -16,7 +16,6 @@ SV *
 new(SV * class)
 CODE:
     Digest__Whirlpool self;
-    SV * self_ref;
     const char * pkg;
 
     /* Figure out what class we're supposed to bless into, handle
@@ -35,7 +34,6 @@ CODE:
        containing its memory location */
     Newz(0, self, 1, struct whirlpool);
     NESSIEinit(&self->state);
-    self_ref = newRV_noinc((SV *) self);
 
     RETVAL = newSV(0); /* This gets mortalized automagically */
     sv_setref_pv(RETVAL, pkg, (void*)self);
