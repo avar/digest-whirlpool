@@ -7,6 +7,9 @@
          Also moved the loading of the C code to BEGIN time, again,
          should have no functional changes.
 
+         The ppport.h file was updated to the latest upstream release
+         and suggested changes applied to Whirlpool.xs.
+
 1.0.8    2009 October 18
 
          Like 1.0.7 but with an updated MANIFEST
