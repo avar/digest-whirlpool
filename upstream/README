@@ -4,7 +4,9 @@ http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html and retrieved on
 2014-10-04.
 
 I've only copied the Whirlpool.c[2] and nessie.h[3] files from that
-zip file.
+zip file. The Whirlpool.c has had some minor patches (sent upstream)
+to fix warnings. That's all in the testing code that isn't actually
+used by this module.
 
 -- Ævar Arnfjörð Bjarmason <avar@cpan.org>
 
