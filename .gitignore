@@ -1,7 +1,9 @@
-Makefile
-Whirlpool.bs
-Whirlpool.c
-Whirlpool.o
-pm_to_blib
-blib/
-Digest-Whirlpool*
+/Makefile
+/Whirlpool.bs
+/Whirlpool.c
+/Whirlpool.o
+/pm_to_blib
+/blib/
+/Digest-Whirlpool*
+/MYMETA.json
+/MYMETA.yml
