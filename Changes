@@ -1,3 +1,11 @@
+1.0.10   2014 October 4
+
+         Fix warnings both in the upstream code and our own code,
+         mainly to do with casts.
+
+         Remove an unused call to newRV_noinc() from the "new"
+         function.
+
 1.0.9    2014 October 4
 
          Now includes the upstream Whirlpool.c and nessie.h

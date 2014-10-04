@@ -5,7 +5,7 @@ use base 'Digest::base';
 
 use XSLoader ();
 BEGIN {
-    our $VERSION = '1.0.9';
+    our $VERSION = '1.0.10';
 
     XSLoader::load __PACKAGE__, $VERSION;
 
