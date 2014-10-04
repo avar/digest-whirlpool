@@ -1,3 +1,9 @@
+2.01     2014 October 4
+
+         Get rid of M::I autoinstall cancer which requires
+         CPAN.pm. I'd just nuke M::I entirely if it wasn't Saturday
+         night...
+
 2.00     2014 October 4
 
          Apparently I suck at version numbering. 1.0.10 is sorted as

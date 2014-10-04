@@ -32,7 +32,6 @@ requires 'MIME::Base64' => 0; # 5.007003
 # t/
 build_requires 'Test::More' => 0; # 5.007003
 
-auto_install;
 WriteAll;
 
 
