@@ -2,7 +2,7 @@
 #include "perl.h"
 #include "XSUB.h"
 #include "ppport.h"
-#include "_whirlpool.c"
+#include "upstream/Whirlpool.c"
 
 typedef struct whirlpool {
     NESSIEstruct state;
