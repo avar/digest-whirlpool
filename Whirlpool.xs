@@ -52,6 +52,7 @@ clone(self)
 int
 hashsize(...)
     CODE:
+        PERL_UNUSED_VAR(items);
         RETVAL = 512;
     OUTPUT:
         RETVAL
@@ -60,7 +61,9 @@ Digest::Whirlpool
 reset(self)
     Digest::Whirlpool self
     CODE:
+        PERL_UNUSED_VAR(RETVAL);
         NESSIEinit(&self->state);
+    OUTPUT:
         
 Digest::Whirlpool
 add(self, ...)
@@ -71,11 +74,14 @@ add(self, ...)
         unsigned char* data;
         unsigned int i;
 
+        PERL_UNUSED_VAR(RETVAL);
+
         for (i = 1; i < items; i++) {
             data = (unsigned char*)(SvPV(ST(i), len));
             NESSIEadd(data, len << 3, &self->state);
         }
     }
+    OUTPUT:
 
 SV*
 digest(self)

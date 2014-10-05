@@ -5,6 +5,10 @@
          these macros & typedefs weren't used at all, so I've just
          removed them.
 
+         Get rid of warnings about unused variables with selective use
+         of PERL_UNUSED_VAR. I could also just move to PPCODE for some
+         of this stuff, but meh..
+
 2.01     2014 October 4
 
          Get rid of M::I autoinstall cancer which requires
