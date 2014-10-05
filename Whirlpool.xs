@@ -1,7 +1,6 @@
 #include "EXTERN.h"
 #include "perl.h"
 #include "XSUB.h"
-#define NEED_newRV_noinc
 #include "ppport.h"
 #include "upstream/Whirlpool.c"
 
