@@ -8,6 +8,11 @@ zip file. The Whirlpool.c has had some minor patches (sent upstream)
 to fix warnings. That's all in the testing code that isn't actually
 used by this module.
 
+The nessie.h file has had a lot of unused code removed (presumably
+copied from some generic compatibility library) because e.g. the
+ROTL32 macro clashed with hv_func.h in Perl itself. Since it and some
+typedefs weren't being used at all I just removed them.
+
 -- Ævar Arnfjörð Bjarmason <avar@cpan.org>
 
 1. sha1sum: 44f26b75ef37145324f4b3c0cd1966f5779a5d11, 632415 bytes in
