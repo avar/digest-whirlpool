@@ -25,5 +25,8 @@ requires:
   MIME::Base64: 0
   Pod::Usage: 0
 resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Digest-Whirlpool
+  homepage: http://metacpan.org/release/Digest-Whirlpool
   license: http://dev.perl.org/licenses/
+  repository: git://github.com/avar/digest-whirlpool.git
 version: 2.04

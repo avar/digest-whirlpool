@@ -9,6 +9,9 @@
          minor patches I had to the upstream code since it's entirely
          of historical interest at this point.
 
+         Added a link to the GitHub repository & bugtracker to
+         META.yml.
+
 2.03     2014 October 5
 
          Get rid of redundant NEED_newRV_noinc macro. This was added
