@@ -1,3 +1,9 @@
+2.04     2014 December 1
+
+         The 2.03 release claimed in META.yml that it was 2.00, and we
+         were including MYMETA* files in the distribution tarball. Fix
+         both of these, reported in RT #99322.
+
 2.03     2014 October 5
 
          Get rid of redundant NEED_newRV_noinc macro. This was added

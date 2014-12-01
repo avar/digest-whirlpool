@@ -26,4 +26,4 @@ requires:
   Pod::Usage: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 2.00
+version: 2.04
