@@ -4,6 +4,11 @@
          were including MYMETA* files in the distribution tarball. Fix
          both of these, reported in RT #99322.
 
+         Include a reply I got from Paulo S.L.M. Barreto in
+         upstream/README. I.e. he wasn't interested in applying the
+         minor patches I had to the upstream code since it's entirely
+         of historical interest at this point.
+
 2.03     2014 October 5
 
          Get rid of redundant NEED_newRV_noinc macro. This was added
