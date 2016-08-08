@@ -1,4 +1,5 @@
 ---
+abstract: 'A 512-bit, collision-resistant, one-way hash function'
 author:
   - 'Ævar Arnfjörð Bjarmason <avar@cpan.org>'
 build_requires:

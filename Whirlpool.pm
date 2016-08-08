@@ -117,7 +117,7 @@ L<http://paginas.terra.com.br/informatica/paulobarreto/WhirlpoolPage.html>
 
 The original version of this package was written by Julius C. Duque in
 2003. It was rewritten by E<AElig>var ArnfjE<ouml>rE<eth> Bjarmason
-<avar@cpan.org> in January 2007 who added compatability with the
+<avar@cpan.org> in January 2007 who added compatibility with the
 Digest interface, improved documentation and a L<whirlpoolsum(1)>
 command-line utility amongst other things.
 
